@@ -1,0 +1,38 @@
+{
+  "name": "npms-info",
+  "version": "0.9.0",
+  "description": "an API Wrapper for NPMs",
+  "type": "module",
+  "main": "src/index.js",
+  "homepage": "https://github.com/EhsanFox/npms-info#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EhsanFox/npms-info.git"
+  },
+  "bugs": {
+    "url": "https://github.com/EhsanFox/npms-info/issues"
+  },
+  "scripts": {},
+  "keywords": [
+    "npm",
+    "api",
+    "node.js",
+    "node",
+    "nodejs",
+    "wrapper",
+    "node js",
+    "npms",
+    "npm api",
+    "info",
+    "npm info",
+    "registery",
+    "npm info",
+    "npm wrapper"
+  ],
+  "author": {
+    "name": "EhsanFox",
+    "email": "ehsan8184@gmail.com",
+    "url": "https://ehsan.js.org/"
+  },
+  "license": "ISC"
+}
