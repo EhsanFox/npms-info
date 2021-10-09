@@ -34,5 +34,8 @@
     "email": "ehsan8184@gmail.com",
     "url": "https://ehsan.js.org/"
   },
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.22.0"
+  }
 }
