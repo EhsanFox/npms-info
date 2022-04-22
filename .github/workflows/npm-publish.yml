@@ -1,4 +1,8 @@
-on: push
+name: NPM Publish
+
+on:
+  push:
+    branches: [main]
 
 jobs:
   publish:
@@ -9,7 +13,7 @@ jobs:
         with:
           node-version: 10
       - run: npm install
-      - run: npm test
+      - run: npm run build
       - uses: JS-DevTools/npm-publish@v1
         with:
           token: ${{ secrets.NPM_TOKEN }}
